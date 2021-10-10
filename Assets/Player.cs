@@ -15,6 +15,8 @@ public class Player
     {
         // TODO: Print out your name
         Debug.Log("Take turn");
+
+        
         
         // Probably throw the Dice and get a value back. Increase gridIndex by this value
         // TODO: Print out your gridIndex

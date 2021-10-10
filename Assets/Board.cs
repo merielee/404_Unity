@@ -12,6 +12,10 @@ public class Board
     public GridSpace aGridSpace4;
     public GridSpace aGridSpace5;
 
+    //Array replacement of the above
+    List int<5> Gridspace = new Gridspace <5>();
+
+
     public void Setup()
     {
         // TODO: Use a for loop to 'new' ALL the gridspaces
@@ -20,5 +24,9 @@ public class Board
         aGridSpace3 = new GridSpace();
         aGridSpace4 = new GridSpace();
         aGridSpace5 = new GridSpace();
+
+        //Loop replacement of the above 
+
+        int [] Gridspace = {1, 2, 3, 4, 5}
     }
 }
