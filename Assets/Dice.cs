@@ -8,12 +8,13 @@ using UnityEngine;
 public class Dice 
 {// Defining Dice functions
    
-   int sides = 10;
+   int sides = Random.Range(1, 10);
+
+   Debug.Log ("sides")
    
    void Start()
 
    // Rolling the dice
    
-   {Debug.Log(Random.Range (1, sides));
    }
 }
