@@ -40,7 +40,14 @@ public class GameManager : MonoBehaviour
     
     // TODO
     // Figure out who's winning
+
+    if (player)
     // Determine when someone has won
+    if(Player)
+
+
     //      How many gridspaces are there?
     //      Use an 'if' to check if any player is further than the max the board has
+
+    Debug.Log 
 }

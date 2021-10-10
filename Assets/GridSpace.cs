@@ -11,5 +11,19 @@ public class GridSpace
     public void PlayerLandedOnMe()
     {
         Debug.Log("Player landed on me");
+
+    //Define Gridindex
+    public Gridindex
+
+    {enum Gridindex {};
+    1
+    2
+    3
+    4
+    5
+    {
+        
+    }}
+
     }
 }
