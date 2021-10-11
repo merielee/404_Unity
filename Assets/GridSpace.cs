@@ -7,33 +7,31 @@ public class GridSpace
 {
     // Define variables
     public int changeCurrency = 0;
+    enum GridType 
+    {
+    Family,
+    Friends,
+    Environment,
+    Health,
+    Fun,
+    Growth,
+    Money,
+    Career
+    }
     
+
+
+
     // Define functions/methods
-    public void PlayerLandedOnMe();
-    
-    {Debug.Log("Player landed on me");
-    
-
-    //Define Gridindex
-    public Gridindex
-
-        {enum Gridindex {};
-    Family
-    Friends
-    Physical Environment
-    Health
-    Fun/Recreation
-    Personal Growth
-    Money 
-    Career}
-        {
+    public void PlayerLandedOnMe()
+    {
+        Debug.Log("Starting your lives");
         //Add or minus number for each GridIndex
-        
+
         //Store score for each GridIndex under each player
 
         //When 50 is reach for each GridIndex, player wins
 
-        Debug.Log("Player X wins")
-    
+        //Debug.Log("Player X wins")
     }
-}
+    }

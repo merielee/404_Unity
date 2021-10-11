@@ -16,15 +16,8 @@ public class Board
     public void Setup()
     {
         // TODO: Use a for loop to 'new' ALL the gridspaces
-        aGridSpace1 = new GridSpace();
-        aGridSpace2 = new GridSpace();
-        aGridSpace3 = new GridSpace();
-        aGridSpace4 = new GridSpace();
-        aGridSpace5 = new GridSpace();
+            //Loop replacement for establishing new Gridspace 
 
-        //Loop replacement for establishing new Gridspace 
-
-        int [] Gridspace = {1, 2, 3, 4, 5, 6, 7, 8};
 
         //Gridspace +/- Fate = Score within Gridspace
 

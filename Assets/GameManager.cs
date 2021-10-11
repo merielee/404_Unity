@@ -37,19 +37,18 @@ public class GameManager : MonoBehaviour
         player1.TakeTurn();
         player2.TakeTurn();
     }
-    
+
     // TODO
     // Figure out who's winning
     // If a players reaches 
 
-    if (player)
+    //Need "if' statement if (player) 
 
     // Determine when someone has won
-    if(Player)
-
+    //Need "if' statement 
 
     //      How many gridspaces are there?
     //      Use an 'if' to check if any player is further than the max the board has
 
-    Debug.Log 
+    
 }
