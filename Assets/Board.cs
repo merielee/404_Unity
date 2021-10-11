@@ -13,7 +13,8 @@ public class Board
     public GridSpace aGridSpace5;
 
     //Array replacement of the above
-    List int<5> Gridspace = new Gridspace <5>();
+    List<int> Gridspace = new List<int>();
+
 
 
     public void Setup()
@@ -27,6 +28,6 @@ public class Board
 
         //Loop replacement of the above 
 
-        int [] Gridspace = {1, 2, 3, 4, 5}
+        int [] Gridspace = {1, 2, 3, 4, 5};
     }
 }
