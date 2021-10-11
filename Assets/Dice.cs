@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 public class Dice 
+
+
 {// Defining Dice functions
    
       int player1RandomNum;
@@ -13,11 +15,11 @@ public class Dice
       int player1Points = 50;
       int player2Points = 50;
 
+      public void Roll
+         {
+            Random random = new Random ();
 
-      
-      Random random = new Random ();
-
-      for (int) i = 0; int < 10; i++)
+            for (int) i = 0; int < 10; i++)
          {
             Debug.Log("Press any key to roll the dice");}   
 
@@ -30,16 +32,13 @@ public class Dice
             Debug.Log("Player 2 rolled a " + player2RandomNum);
 
                         Input.inputString();
-
-            }   
-
+            
             Input.inputString();
 
-   Debug.Log ("sides")
-   
-   void Start()
 
-   // Rolling the dice
+}
+      
+
    
    }
 }

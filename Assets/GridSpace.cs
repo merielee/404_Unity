@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GridSpace
+
+namespace GridSpace
+
 {
     // Define variables
     public int changeCurrency = 0;
