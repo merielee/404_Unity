@@ -16,29 +16,25 @@ public class Dice
       int player2Points = 50;
 
       public void Roll
-         {
-            Random random = new Random ();
+      
+      {
+         public Random random = new Random ();
 
-            for (int) i = 0; int < 10; i++)
-         {
+            {for (int) i = 0; int < 10; i++);
+         
             Debug.Log("Press any key to roll the dice");}   
 
             Input.inputString();
 
-            public player1RandomNum = random.Next(1, 7);
-            Debug.Log("Player 1 rolled a " + player1RandomNum);
+            {public player1RandomNum = random.Next(1, 7);
+            Debug.Log("Player 1 rolled a " + player1RandomNum);}
             
-            public player2RandomNum = random.Next(1, 7);
-            Debug.Log("Player 2 rolled a " + player2RandomNum);
+            {public player2RandomNum = random.Next(1, 7);
+            Debug.Log("Player 2 rolled a " + player2RandomNum);}
 
                         Input.inputString();
             
             Input.inputString();
-
-
-}
-      
-
-   
-   }
+      }
+       
 }
