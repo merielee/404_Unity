@@ -5,14 +5,10 @@ using UnityEngine;
 public class Board
 {
     // Define variables
-    // TODO: Replace these with an Array (or a fancy 'List<GridSpace>()')
-    public GridSpace aGridSpace1;
-    public GridSpace aGridSpace2;
-    public GridSpace aGridSpace3;
-    public GridSpace aGridSpace4;
-    public GridSpace aGridSpace5;
 
-    //Array replacement of the above
+    // TODO: Replace these with an Array (or a fancy 'List<GridSpace>()')
+
+    //Array replacement of the Gridspace list
     List<int> Gridspace = new List<int>();
 
 
@@ -26,8 +22,12 @@ public class Board
         aGridSpace4 = new GridSpace();
         aGridSpace5 = new GridSpace();
 
-        //Loop replacement of the above 
+        //Loop replacement for establishing new Gridspace 
 
-        int [] Gridspace = {1, 2, 3, 4, 5};
+        int [] Gridspace = {1, 2, 3, 4, 5, 6, 7, 8};
+
+        //Gridspace +/- Fate = Score within Gridspace
+
+
     }
 }

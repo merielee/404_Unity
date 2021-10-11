@@ -40,8 +40,10 @@ public class GameManager : MonoBehaviour
     
     // TODO
     // Figure out who's winning
+    // If a players reaches 
 
     if (player)
+
     // Determine when someone has won
     if(Player)
 

@@ -17,6 +17,8 @@ public class Player
     // Define functions/methods
     public void TakeTurn()
     {
+        
+        
         // TODO: Print out your name
         Debug.Log("Take turn");
 
@@ -27,7 +29,7 @@ public class Player
 
 
         // TODO: Print out your gridIndex
-        Debug.Log()
+        Debug.Log("LifeAreaScores")
 
 
         Debug.Log("Player")
